@@ -2,10 +2,11 @@ body{
     
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    margin: 0 5%;
+    margin: 2% 5%;
     min-height: 100%;
     background-color: #F39E60;
     color: #441e18;
+    padding: 2vw 0;
     
 }
 .container{
@@ -13,6 +14,7 @@ body{
     margin: auto;
     background-color: white;
     padding:0 2vw;
+ 
     
     
 }
@@ -20,11 +22,28 @@ body{
 
 header{
     border: solid 2px black;
-    padding: 10px;
+    padding: .5vw;
     background-color: #f7dda0;
+    overflow: hidden;
+    
 
 }
 
+header ul{
+    
+    list-style-type: none;
+    
+}
+
+header li{
+    float: right;
+    padding: 0 .5vw;
+   
+}
+header a{
+    display: block;
+    
+}
 .intro{
     
     display: flex;
@@ -57,7 +76,7 @@ header{
     line-height: 400%;
 }
 .desc{
-    width: 62vw;
+    width: 56vw;
     border: solid 2px red;
 
 }
@@ -86,7 +105,44 @@ header{
 }
 
 footer{
-     border: solid 2px black; 
+    border: solid 2px black; 
     padding: 10px;
     background-color: #f7dda0;
+}
+
+@media screen and (max-width: 450px) {
+
+    body{
+        margin-top: 30%;
+    }
+ 
+    .container{
+        padding: 2vw;
+        
+    }
+
+    .intro{
+        display: inline;
+        margin: 5%;
+        
+        
+    }
+
+    
+
+    .intro img{
+        width: 12%;
+    }
+
+    .desc{
+        width: 100%;
+        text-align: center;
+    }
+
+    #summary{
+        display: none;
+    }
+
+    
+
 }
