@@ -2,11 +2,22 @@
 <html>
     <head>
         <title> Hire Me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="styles/resume-styles.css" />
+        <script type= "text/javascript" src = "scripts/popup-script.js" > </script>
+        
     </head>
     <body>
         <h1> Autumn Austin </h1>
 
-        <p> Contact: (208) 473-1255 | autumnaustin046@gmail.com | <a href="linkedin.com/in/autumn-endeav-austin" > Linked In </a> </p>
+        <p> Contact: (208) 473-1255 | autumnaustin046@gmail.com | <a href="linkedin.com/in/autumn-endeav-austin" > Linked In </a> |   <a href="https://endeav007.github.io/" > Website </a></p>
+
+
+        <div class = "popup" id = "popup"> 
+            <p> I have this whole fun website and you choose to view my boring resume... ok you do you </p>
+            <button id = "close" onclick = "closePopup()"> Click to Close </button>
+            
+        </div>
         
 
         <h2>Technical Skills</h2>
@@ -41,6 +52,27 @@
         </ul>
 
         <h2> Projects </h2>
+
+        <h3> Fantasy Character Personality Quiz </h3>
+        <p> Technologies: React.js, JavaScript, Photoshop </p>
+        <ul>
+            <li>Developed an interactive web application where users can take a quiz and be assigned a fantasy character archetype.</li>
+            <li> Designed a UI with Photoshop, and built a static version of it using React. </li>
+            <li> Implemented React state management to monitor the passing of data </li>
+        </ul>
+
+        <h3> Oh, No! Your Kite is Lost in Axe Murderer Woods! </h3>
+        <p> Technologies: Unreal Engine, 3ds Max, Blender </p>
+
+        <ul>
+            <li>Created a fetch quest horror game where the user has to find an object and take it to a location. </li>
+            <li> Modeled custom assets and textures using Blender and 3Ds Max.  </li>
+            <li> Used Unreal Blueprinting to create custom interactive elements.   </li>
+        </ul>
+
+        
+
+        <script> src = "scripts/popup-script.js" </script>
 
     </body>
 </html>
