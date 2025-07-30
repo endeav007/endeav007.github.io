@@ -87,7 +87,7 @@ header a{
     
 }
 
-.navigation{
+.navigation .nav-button{
     border: solid 2px green;
     display: flex;
     justify-content: space-evenly;
@@ -95,7 +95,7 @@ header a{
     
 }
 
-.navigation input{   
+.nav-button input{   
     width: 20%;
     max-width: 100%;
     padding: 10px;    
