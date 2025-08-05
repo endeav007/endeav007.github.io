@@ -4,7 +4,20 @@ class Header extends HTMLElement {
   }
 
   connectedCallback() {
-    this.innerHTML = ``;
+    this.innerHTML = `
+      <header>
+        <ul class = "left-list">
+          <li> <a href = experience.html> About Me </a> </li>
+          <li> <a href = experience.html> Projects </a> </li>
+          <li> <a href = experience.html> Experience </a> </li>
+          <li> <a href = index.html> Home </a> </li>
+        </ul>
+        <ul>
+          <li> <a href = resume.html> My Resume </a> </li>
+          <li> <a href="mailto:autumnaustin046@gmail.com"> Email Me!</a> </li>
+        </ul>
+      </header>
+    `;
   }
 }
-customElements.define('header-component', Header);
+customElements.define('page-header', Header);
