@@ -7,8 +7,8 @@ class Header extends HTMLElement {
     this.innerHTML = `
       <header>
         <ul class = "left-list">
-          <li> <a href = experience.html> About Me </a> </li>
-          <li> <a href = experience.html> Projects </a> </li>
+          <li> <a href = about.html> About Me </a> </li>
+          <li> <a href = projects.html> Projects </a> </li>
           <li> <a href = experience.html> Experience </a> </li>
           <li> <a href = index.html> Home </a> </li>
         </ul>
